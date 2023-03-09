@@ -1,13 +1,5 @@
 const fs = require('fs');
-const blogService = require('./blog-Service');
-const data = [
-  {
-    id: 1,
-    title: 'First post',
-    category: 1,
-    postDate: '2022-02-25',
-    content: 'This is the first post on my blog.'
-  },]
+const data = [  ]
 const getPosts = () => {
   const postsData = fs.readFileSync('./data/posts.json');
   return JSON.parse(postsData);
