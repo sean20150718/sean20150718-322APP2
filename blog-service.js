@@ -157,15 +157,15 @@ function getPostById(id) {
   });
 }
 module.exports = {
-initialize: initialize,
-getAllPosts: getAllPosts,
-getPublishedPosts:getPublishedPosts,
-getCategories: getCategories,
-getPosts: getPosts, 
-getPublishedPostsSync:getPublishedPostsSync, 
-getCategoriesSync:getCategoriesSync,
-addPost:addPost,
-getPostsByCategory:getPostsByCategory,
-getPostsByMinDate:getPostsByMinDate,
-getPostById:getPostById,
+initialize,
+ getAllPosts,
+getPublishedPosts,
+ getCategories,
+getPosts, 
+getPublishedPostsSync, 
+getCategoriesSync,
+addPost,
+getPostsByCategory,
+getPostsByMinDate,
+getPostById,
   };
